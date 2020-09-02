@@ -8,13 +8,13 @@
 ### 免输入密码操作远程仓库
 执行远程仓库操作需要输入密码是件比较麻烦的事情，以下方法可以免密配置，注意如果你的账号密码中存在@符号需要转义%40
 ```
-http://${你的账号}:${你的密码}@igit.58corp.com/58finance_baseService/report-system.git
+http://${你的账号}:${你的密码}@github.com/test.git
 ```
 
 -------
 
 ### Git Config
-当我们只有一个remote的时候，config配置文件一般是这个样子（以报表平台项目为例http://igit.58corp.com/58finance_baseService/report-system, 文件地址：.git/config）
+当我们只有一个remote的时候，config配置文件一般是这个样子（以XX项目为例http://github.com/test, 文件地址：.git/config）
 
 ```
 [core]
