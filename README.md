@@ -25,9 +25,9 @@ http://${你的账号}:${你的密码}@igit.58corp.com/58finance_baseService/rep
 	ignorecase = true
 	precomposeunicode = true
 [remote "origin"]
-	url = http://${username}:${password}@igit.58corp.com/58finance_baseService/report-system.git
+	url = http://${username}:${password}@github.com/test.git
 	fetch = +refs/heads/*:refs/remotes/origin/*
-	pushurl = http://${username}:${password}@igit.58corp.com/58finance_baseService/report-system.git
+	pushurl = http://${username}:${password}@github.com/test.git
 [branch "master"]
 	remote = origin
 	merge = refs/heads/master
@@ -97,10 +97,10 @@ git remote set-url --add origin https://username:password@github.com/chuans/git-
 
 ```
 [remote "origin"]
-	url = http://xuhechuan:Chuans_2902@igit.58corp.com/58finance_baseService/report-system.git
+	url = http://username:password@github.com/test.git
 	url = https://username:password@github.com/chuans/git-multiple-remote.git
 	fetch = +refs/heads/*:refs/remotes/origin/*
-	pushurl = http://xuhechuan:Chuans_2902@igit.58corp.com/58finance_baseService/report-system.git
+	pushurl = http://username:password@github.com/test.git
 ```
 *我们看到在url = xxx后面有新增了一行url = xxx ，xxx的值就是我们输入的remote地址，那么这个时候再执行命令的时候，命令会去依次执行提交到url挂钩的remote源地址*
 ```
